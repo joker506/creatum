@@ -101,7 +101,7 @@ export default {
 
 <style lang="scss" scoped>
 .main {
-  background-color: #fcfbf7;
+  //background-color: #fcfbf7;
 }
 .main__wrapp {
   margin: 0 auto;
@@ -143,8 +143,8 @@ export default {
   height: 100px;
 }
 .poly__img {
-  fill: antiquewhite;
-  color: red;
+  //fill: antiquewhite;
+  //color: red;
   opacity: 0.1;
 }
 /* .poly__img:hover {
@@ -194,18 +194,19 @@ export default {
 .main__poly--thid:hover .second__signature {
   cursor: pointer;
   opacity: 1;
-  color: red;
+  //color: red;
 }
 
 .main__poly--one:hover .poly__img,
 .main__poly--sec:hover .poly__img,
 .main__poly--thid:hover .poly__img {
   cursor: pointer;
-  transition: 1s;
+  transition: 0.1s;
   opacity: 1;
   stroke-linejoin: round;
-  stroke: #050814;
-  fill: #4c61bd;
+  border: transparent;
+  // stroke: #050814;
+  fill: #8523cd;
 }
 .main__btn {
   width: 166px;

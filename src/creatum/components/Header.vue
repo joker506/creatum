@@ -21,21 +21,21 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: "Header",
   data() {
     return {
-      openMenu: false,
+      openMenu: false
     };
   },
   props: {
-    msg: String,
-  },
+    msg: String
+  }
 };
 </script>
 
 <style lang="scss" scoped>
 .header {
-  background-color: #fcfbf7;
+  //background-color: #fcfbf7;
 }
 .header__wrapp {
   margin: 0 auto;
@@ -54,7 +54,7 @@ export default {
   line-height: 100%;
   cursor: pointer;
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     right: 0px;
     top: 3px;
@@ -62,7 +62,7 @@ export default {
     width: 30px;
   }
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     right: 12px;
     bottom: 3px;
@@ -79,8 +79,7 @@ export default {
     height: 30px;
     width: 2px;
     border: none;
-    transition-delay: 0.2s;
-
+    // transition-delay: 0.2s;
     background-color: #272727;
     transform: rotate(45deg);
   }
@@ -91,7 +90,7 @@ export default {
     width: 2px;
     border: none;
     //transition: 0.2s;
-    transition-delay: 0.3s;
+    //transition-delay: 0.3s;
     background-color: #272727;
     transform: rotate(-45deg);
   }
